@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import { hash } from "bcryptjs";
-import { InMemoryUsersRepository } from "@/repositories/in-memory/in-mamory-users-repositories";
+import { InMemoryUsersRepository } from "@/repositories/in-memory/in-memory-users-repositories";
 import { GetUserProfileUseCase } from "./get-user-profile";
 import { ResourceNotFoundError } from "./errors/resource-not-found-error";
 
